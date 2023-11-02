@@ -30,6 +30,6 @@ bool Server::create ()
         printf ("ERROR: don't listen!\r\n");
         return false;
     }
-    printf ("create OK\r\n");
+
     return true;
 }
